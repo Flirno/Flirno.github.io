@@ -1,2 +1,3 @@
 # Flirno.github.io
-This is my website ^^
+
+My website where you can find more about me :)
