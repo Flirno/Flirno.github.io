@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 64px;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+}
