@@ -25,7 +25,7 @@ $("h1").hover(
   function(){
     var $spans = $(this).find('span');
     $spans.each(function(){;
-                           $(this).velocity({translateX : 0, translateY: 0, scale: 1, color: '#000'}, 100);
+                           $(this).velocity({translateX : 0, translateY: 0, scale: 1, color: '#fff'}, 100);
     });
   }
 );
