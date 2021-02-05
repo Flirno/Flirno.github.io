@@ -24,7 +24,7 @@ for i in range(len(r[0].get('players'))):
     #["Pseudo", "AccountID", "points""]
     #T += [[r[u].get('players')[i].get('nameOnPlatform'), r[u].get('players')[i].get('accountId'), r[u].get('players')[i].get('points')]]
     rank += 1 
-    data = ["Pseudo :",r[0].get('players')[i].get('nameOnPlatform'),"AccountID :", r[0].get('players')[i].get('accountId'),"Total points :", r[0].get('players')[i].get('points'),"Rank :", rank]
+    data = ["Pseudo :",r[0].get('players')[i].get('nameOnPlatform'),"AccountID :", r[0].get('players')[i].get('accountId'),"Total points :", r[0].get('players')[i].get('points'),"Rank :", r[0].get('players')[i].get('position'),"SiteRank :",rank]
     #print(type(URL[o]),rank)
     URL[o] = str(URL[o]+"&players[]="+str(data[3]))
 
